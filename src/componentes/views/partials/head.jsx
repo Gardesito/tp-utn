@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
-
+import { Banner } from "./banner";
 const Head = () => {
   return (
     <>
       <header>
-        <div class="banner">Delivery GRATIS a partir de los $5000 🤑</div>
+        <Banner />
         <nav>
           <div id="logo">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              class="icon"
+              className="icon"
             >
               <path
                 fill-rule="evenodd"
@@ -25,26 +25,26 @@ const Head = () => {
               Panecito
             </Link>
           </div>
-          <ul class="navigation-menu">
+          <ul className="navigation-menu">
             <li>
               <Link to="/products">Productos</Link>
-              <ul class="subnav">
-                <li class="card-med" id="sup-dog">
-                  <div class="card-image">
+              <ul className="subnav">
+                <li className="card-med" id="sup-dog">
+                  <div className="card-image">
                     <img src="https://res.cloudinary.com/dtmziqubb/image/upload/v1717706810/factura_w3ect6.png" />
                   </div>
                   <a href="#">
                     <span>Facturas</span>
                     <span>
                       Comprar{" "}
-                      <span class="material-symbols-outlined">
+                      <span className="material-symbols-outlined">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke-width="1.5"
                           stroke="currentColor"
-                          class="icon"
+                          className="icon"
                         >
                           <path
                             stroke-linecap="round"
@@ -56,8 +56,8 @@ const Head = () => {
                     </span>
                   </a>
                 </li>
-                <li class="card-med" id="sup-cat">
-                  <div class="card-image">
+                <li className="card-med" id="sup-cat">
+                  <div className="card-image">
                     <img
                       src="https://res.cloudinary.com/doo4zye2n/image/upload/v1717793969/donas_b1zxqu.png"
                       alt=""
@@ -67,14 +67,14 @@ const Head = () => {
                     <span>Donas</span>
                     <span>
                       Comprar{" "}
-                      <span class="material-symbols-outlined">
+                      <span className="material-symbols-outlined">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke-width="1.5"
                           stroke="currentColor"
-                          class="icon"
+                          className="icon"
                         >
                           <path
                             stroke-linecap="round"
@@ -86,8 +86,8 @@ const Head = () => {
                     </span>
                   </a>
                 </li>
-                <li class="card-med" id="sup-bird">
-                  <div class="card-image">
+                <li className="card-med" id="sup-bird">
+                  <div className="card-image">
                     <img
                       src="https://res.cloudinary.com/doo4zye2n/image/upload/v1717793968/torta_nrxsym.png"
                       alt=""
@@ -97,14 +97,14 @@ const Head = () => {
                     <span>Tortas</span>
                     <span>
                       Comprar{" "}
-                      <span class="material-symbols-outlined">
+                      <span className="material-symbols-outlined">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke-width="1.5"
                           stroke="currentColor"
-                          class="icon"
+                          className="icon"
                         >
                           <path
                             stroke-linecap="round"
@@ -116,8 +116,8 @@ const Head = () => {
                     </span>
                   </a>
                 </li>
-                <li class="card-med" id="sup-fish">
-                  <div class="card-image">
+                <li className="card-med" id="sup-fish">
+                  <div className="card-image">
                     <img
                       src="https://res.cloudinary.com/doo4zye2n/image/upload/v1717794197/galletas_flv4qs.png"
                       alt=""
@@ -127,14 +127,14 @@ const Head = () => {
                     <span>Galletas</span>
                     <span>
                       Comprar{" "}
-                      <span class="material-symbols-outlined">
+                      <span className="material-symbols-outlined">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke-width="1.5"
                           stroke="currentColor"
-                          class="icon"
+                          className="icon"
                         >
                           <path
                             stroke-linecap="round"
@@ -151,9 +151,9 @@ const Head = () => {
 
             <li>
               <a href="#">Servicios</a>
-              <ul class="subnav">
-                <li class="card-med" id="serv-groom">
-                  <div class="card-image">
+              <ul className="subnav">
+                <li className="card-med" id="serv-groom">
+                  <div className="card-image">
                     <img
                       src="https://res.cloudinary.com/doo4zye2n/image/upload/v1717795433/panaderia_w5dlim.png"
                       alt=""
@@ -163,14 +163,14 @@ const Head = () => {
                     <span>Panaderia</span>
                     <span>
                       Mas informacion{" "}
-                      <span class="material-symbols-outlined">
+                      <span className="material-symbols-outlined">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke-width="1.5"
                           stroke="currentColor"
-                          class="icon"
+                          className="icon"
                         >
                           <path
                             stroke-linecap="round"
@@ -182,8 +182,8 @@ const Head = () => {
                     </span>
                   </a>
                 </li>
-                <li class="card-med" id="serv-board">
-                  <div class="card-image">
+                <li className="card-med" id="serv-board">
+                  <div className="card-image">
                     <img
                       src="https://res.cloudinary.com/doo4zye2n/image/upload/v1717795581/9023920_mtjyo5.png"
                       alt=""
@@ -193,14 +193,14 @@ const Head = () => {
                     <span>Pasteleria</span>
                     <span>
                       Mas informacion{" "}
-                      <span class="material-symbols-outlined">
+                      <span className="material-symbols-outlined">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke-width="1.5"
                           stroke="currentColor"
-                          class="icon"
+                          className="icon"
                         >
                           <path
                             stroke-linecap="round"
@@ -222,21 +222,10 @@ const Head = () => {
             </li>
           </ul>
           <div id="utility">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 28 28"
-              stroke-width="4.2"
-              stroke="currentColor"
-              className="icon"
-            >
-              <path
-                stroke-linecap="black"
-                stroke-linejoin="round"
-                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-              />
-            </svg>{" "}
-            <Link to="/carrito">
+            <Link to="/login">
+              <a href=""> Log in</a>
+            </Link>
+            <Link to="/carritoName">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

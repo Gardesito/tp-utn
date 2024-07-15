@@ -1,20 +1,19 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import Head from "../partials/head";
 import Footer from "../partials/footer";
+import { Banner } from "../partials/banner";
 const Login = () => {
   return (
     <>
+      <Banner />
       <div className="login">
-        <Head />
-
         <h1 className="title-login">Registrare en nuestra Tienda</h1>
 
         <div className="section-login">
           <div className="container-login">
             <div className="row full-height justify-content-center">
               <div className="col-12 text-center align-self-center py-5">
-                <div className="section pb-5 pt-5 pt-sm-2 text-center">
+                <div className="section-login ">
                   <input
                     className="checkbox"
                     type="checkbox"
@@ -25,8 +24,8 @@ const Login = () => {
                   <div className="card-3d-wrap mx-auto">
                     <div className="card-3d-wrapper">
                       <div className="card-front">
-                        <div className="center-wrap">
-                          <div className="section text-center">
+                        <div className="center-wrap1">
+                          <div className="section-banner2 text-center">
                             <h4 className="mb-4 pb-3">Log In</h4>
                             <div className="form-group">
                               <input
@@ -62,9 +61,9 @@ const Login = () => {
                         </div>
                       </div>
                       <div className="card-back">
-                        <div className="center-wrap">
+                        <div className="center-wrap2">
                           <div className="section text-center">
-                            <h4 className="mb-4 pb-3">Registrate</h4>
+                            <h4 className="mb-4-back pb-3">Registrate</h4>
                             <div className="form-group">
                               <input
                                 type="text"
@@ -99,7 +98,7 @@ const Login = () => {
                               />
                               <i className="input-icon uil uil-lock-alt"></i>
                             </div>
-                            <a href="#" className="btn mt-4">
+                            <a href="#" className="btn btn2 ">
                               Crear cuenta
                             </a>
                           </div>

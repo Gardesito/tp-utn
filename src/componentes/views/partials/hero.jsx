@@ -31,7 +31,7 @@ const Hero = () => {
           </button>
         </div>
       </section>
-      <section></section>{" "}
+     
     </>
   );
 };

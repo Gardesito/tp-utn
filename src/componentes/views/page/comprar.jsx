@@ -1,4 +1,10 @@
 import React from "react";
+import Head from "../partials/head";
+import Footer from "../partials/footer";
+import { Link } from "react-router-dom";
+/*  */
+
+/*  */
 
 const Comprar = () => {
   return (
@@ -6,24 +12,24 @@ const Comprar = () => {
       <Head />
       <div className="products">
         <div>
-          <div class="container-title">Galletas</div>
+          <div className="container-title">Galletas</div>
 
           <main>
-            <div class="container-img">
+            <div className="container-img">
               <img
                 src="https://res.cloudinary.com/doo4zye2n/image/upload/v1717794197/galletas_flv4qs.png"
                 alt="imagen-producto"
                 className="img-products"
               />
             </div>
-            <div class="container-info-product">
-              <div class="container-price">
+            <div className="container-info-product">
+              <div className="container-price">
                 <span>$95.00</span>
-                <i class="fa-solid fa-angle-right"></i>
+                <i className="fa-solid fa-angle-right"></i>
               </div>
 
-              <div class="container-details-product">
-                <div class="form-group">
+              <div className="container-details-product">
+                <div className="form-group">
                   <label for="colour">Tipo</label>
                   <select name="colour" id="colour">
                     <option disabled selected value="">
@@ -34,7 +40,7 @@ const Comprar = () => {
                     <option value="beige">Cookie Rellena</option>
                   </select>
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <label for="size">Extra</label>
                   <select name="size" id="size">
                     <option disabled selected value="">
@@ -46,11 +52,11 @@ const Comprar = () => {
                     <option value="Ninguno">Ninguno</option>
                   </select>
                 </div>
-                <button class="btn-clean">Limpiar</button>
+                <button className="btn-clean">Limpiar</button>
               </div>
 
-              <div class="container-add-cart">
-                <div class="container-quantity">
+              <div className="container-add-cart">
+                <div className="container-quantity">
                   <input
                     type="number"
                     placeholder="1"
@@ -136,10 +142,10 @@ const Comprar = () => {
           <section class="container-related-products">
             <h2>Productos Relacionados</h2>
             <div class="card-list-products">
-              <div class="card">
-                <div class="card-img">
+              <div className="card">
+                <div className="card-img">
                   <img
-                    src="https://res.cloudinary.com/dtmziqubb/image/upload/v1717706810/factura_w3ect6.png"
+                    src="https://res.cloudinary.com/doo4zye2n/image/upload/v1720819309/facr_pv0hgm.png"
                     alt="producto-1"
                   />
                 </div>

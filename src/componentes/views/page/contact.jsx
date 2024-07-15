@@ -1,9 +1,10 @@
 import React from "react";
 import Footer from "../partials/footer";
-
+import { Banner } from "../partials/banner";
 const Contact = () => {
   return (
     <>
+      <Banner />
       <div className="contact">
         <form>
           <input
